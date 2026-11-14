@@ -12,7 +12,7 @@ while i < len(fruits):
 print(fruits.reverse())
 
 #match in the python 
-day = 4
+day = 8
 match day :
     case 1:
         print("Monday")
@@ -28,3 +28,5 @@ match day :
         print("saturday")
     case 7:
         print("Sunday")
+    case _:
+        print("I am sorry dude i am not able to find")
