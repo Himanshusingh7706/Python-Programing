@@ -48,3 +48,29 @@ when specifying a range, the return value will be a new list with the specified 
 
 thislist = ["apple" , "mango" , "kiwi" , "melon" , "orange" ,"banana" , "cheery", "orange"]
 print(thislist[2:5])
+
+"""Add List item in the list"""
+
+listitems = ["himanshu", "Ravi","Aditya" , "adviik"]
+listitems.append("navin")
+print(listitems)
+
+thislist1 = ["Apple" , "mango" ,"Banana"]
+thislist1.insert(1 , "Orange")
+print(thislist1)
+
+thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
+thislist.remove("banana")
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+    print(x)
+
+thislistfruites = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Papaya", "Pineapple", "Watermelon", "Muskmelon", "Guava", "Pomegranate", "Strawberry", "Cherry", "Kiwi"]
+for i in range(len(thislistfruites)):
+    print(i , "Postion of element" , thislistfruites[i])
